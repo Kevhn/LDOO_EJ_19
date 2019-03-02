@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+    <head>
+	<title>Práctica 3 LDOO</title>
+	<link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+	  <body>
+      <center><h1>Práctica 3</h1></center>
+      <ul>
+          <li><a class="active" href="#home">Principal</a></li>
+          <li><a href="#news">Noticias</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><a href="#about">Acerca de</a></li>
+      </ul>
+      <div class="MenuBar">
+     	 <p>Menú</p>
+      	 <ul>
+         <li class="MenuBar"><a href="#news">Noticias</a></li>
+         <li class="MenuBar"><a href="#contact">Contacto</a></li>
+         <li class="MenuBar"><a href="#about">Acerca de</a></li>
+         </ul>
+      </div>
+      <img src="infosec.jpeg" alt="Seguridad en TI" width="400" class="center"/>
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt, orci a auctor pretium, erat massa egestas leo, in hendrerit purus urna non lectus. Vivamus eu posuere mauris, nec venenatis arcu. Duis in viverra quam, a tempus nibh. Morbi eu pharetra ipsum. Sed ac tristique nisl. Maecenas nisi nisl, laoreet nec dignissim nec, dictum et nunc. Integer egestas, lectus non gravida imperdiet, massa turpis ultricies augue, a consequat felis elit sed nisi. Quisque a erat arcu. Cras auctor ligula eget nisi pulvinar, in convallis nulla pharetra. Maecenas et dolor vitae nunc sodales pharetra. Vivamus ipsum urna, mattis quis feugiat eget, aliquam vitae ligula. In hac habitasse platea dictumst. Duis ante purus, rhoncus ac dolor sit amet, blandit viverra nisi. Nulla sed sodales diam. Nulla efficitur augue id libero laoreet, nec tincidunt purus consectetur. Duis semper mi vel nisl ultrices, in rutrum nibh accumsan. 
+      </p>
+      <br>
+      <form action="jspp3.jsp" method="post">
+          Nombre: <input type="text" name="nombre"><br>
+          Correo electrónico: <input type="email" name="correo"><br>
+          Contraseña: <input type="password" name="clave"><br>
+          Fecha de nacimiento: <input type="date" name="cumple"><br>
+          <textarea cols="60" rows=10 name="comentarios"></textarea><br>
+          <select name="opcion">
+            <option value="LA">Licenciatura en Actuaría</option>
+            <option value="LF">Licenciatura en Física</option>
+            <option value="LM">Licenciatura en Matemáticas</option>
+            <option value="LSTI">Licenciatura en Seguridad en Tecnologías de Información</option>
+            <option value="LCC">Licenciatura en Ciencias Computacionales</option>
+            <option value="LMAD">Licenciaura en Multimedia y Animación Digital</option>
+	   </select>
+          <button type="submit" value="Enviar" onclick="alerta()">Enviar</button>
+          <button type="reset" value="Borrar">Borrar</button>
+      </form>
+	  <br><strong><a target="_blank" href="http://www.uanl.mx/content/licenciado-en-seguridad-en-tecnologias-de-informacion">Licenciatura en Seguridad en Tecnologías de Información UANL FCFM</a></strong><br><br><br>
+      </body>
+</html>
