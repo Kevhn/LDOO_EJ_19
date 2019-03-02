@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #292c34;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #2E2EFE;
+}
+
+.center{
+  padding-left: 500px;
+}
+
+p {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+form {
+  padding-left: 15px;
+}
+
+a {
+  padding-left: 15px;
+}
+
+.MenuBar{
+  margin-top: 50px;
+  color: white;
+  background-color: #292c34;
+  width: 150px;
+  border: 3px solid #0431B4;
+  border-radius: 8px;
+}
+
+.MenuBar li {
+  margin: 0px -10;
+}
